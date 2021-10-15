@@ -28,6 +28,9 @@ export const disableDarkMode = () => {
 };
 
 export const client = new ApolloClient({
-  uri: "http://localhost:4001/graphql",
+  uri:
+    process.env.NODE_ENV === "production"
+      ? ""
+      : "http://localhost:4001/graphql",
   cache: new InMemoryCache(),
 });

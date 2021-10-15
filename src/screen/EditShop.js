@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default function EditShop() {
   return (
     <div>
-      <span>dsfdsfdsfdsf</span>
+      <span>dsfdsfdsfdsfsaff</span>
     </div>
   );
 }
